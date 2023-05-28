@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Simple House Template</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" />    
+	<link href="css/templatemo-style.css" rel="stylesheet" />
+
+	<style>
+		body {
+		  text-align: center;
+		}
+  
+		h1, img, iframe {
+		  display: block;
+		  margin-left: auto;
+		  margin-right: auto;
+		  text-align: center;
+		}
+		
+		ol, ul {
+	    display: inline-block;
+	    text-align: left;
+	    list-style-position: inside;
+	  	}
+	</style>
+</head>
+<!--
+
+Simple House
+
+https://templatemo.com/tm-539-simple-house
+
+-->
+<body> 
+
+	<div class="container">
+	<!-- Top box -->
+		<!-- Logo & Site Name -->
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/simple-house-01.jpg">
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+							<img src="img/simple-house-logo.png" alt="Logo" class="tm-site-logo" /> 
+							<div class="tm-site-text-box">
+								<h1 class="tm-site-title">Rumah Rasa Nusantara</h1>
+							</div>
+						</div>
+						<nav class="col-md-6 col-12 tm-nav">
+							<ul class="tm-nav-ul">
+								<li class="tm-nav-li"><a href="index.html" class="tm-nav-link active">Home</a></li>
+								<li class="tm-nav-li"><a href="about.html" class="tm-nav-link">About</a></li>
+							</ul>
+						</nav>	
+					</div>
+				</div>
+			</div>
+		</div>
+		<main>
+			<head>
+        <title>Resep Nasi Kuning</title>
+      </head>
+      <body>
+        <h1>Resep Nasi Kuning</h1>
+        <img src="img/gallery/nasi_kuning.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+      
+        <h2>Bahan 2:</h2>
+        <ul>
+          <li>3 sdm minyak goreng</li>
+          <li>6 siung bawang putih, dicincang</li>
+          <li>2 lembar daun pandan, diikat</li>
+          <li>6 lembar daun jeruk</li>
+          <li>2 batang serai, memarkan</li>
+          <li>2 sdt Desaku Kunyit Bubuk</li>
+          <li>2½ sdt garam</li>
+          <li>1.200 ml santan sedang kentalnya, yang diperoleh dari 1 butir kelapa</li>
+        </ul>
+      
+        <h2>Cara Membuat:</h2>
+        <ol>
+          <li>Tumis bawang putih yang sudah dicincang dengan 3 sdm minyak goreng, beri 100 ml santan, tumis hingga kekuningan.</li>
+          <li>Masukkan daun pandan, daun jeruk, dan serai. Tumis kembali hingga harum.</li>
+          <li>Kecilkan api, masukkan sisa santan dan garam.</li>
+          <li>Masukkan Desaku Kunyit Bubuk.</li>
+          <li>Masak perlahan hingga santan mulai mendidih serta kunyit bubuk larut dan harum aromanya.</li>
+          <li>Masukkan beras ke dalam rebusan bumbu.</li>
+          <li>Aduk merata hingga beras menjadi aronan.</li>
+          <li>Pindahkan aronan nasi kuning ke dalam kukusan yang sudah dipanaskan.</li>
+          <li>Kukus aronan nasi kuning selama 40-45 menit hingga matang dan pulen.</li>
+          <li>Hidangkan dengan lauk pauk sesuai selera.</li>
+        </ol>
+        <h2>Link video:</h2>
+        <ul>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qPrZT0btu7s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </ul>
+			  <script src="js/jquery.min.js"></script>
+			  <script src="js/parallax.min.js"></script>
+			  <script>
+				  $(document).ready(function(){
+					  // Handle click on paging links
+					  $('.tm-paging-link').click(function(e){
+						  e.preventDefault();
+						  
+						  var page = $(this).text().toLowerCase();
+						  $('.tm-gallery-page').addClass('hidden');
+						  $('#tm-gallery-page-' + page).removeClass('hidden');
+						  $('.tm-paging-link').removeClass('active');
+						  $(this).addClass("active");
+					  });
+				  });
+			  </script>
+</body>
+</html>

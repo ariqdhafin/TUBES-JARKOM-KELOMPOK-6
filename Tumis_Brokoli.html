@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Simple House Template</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" />    
+	<link href="css/templatemo-style.css" rel="stylesheet" />
+
+	<style>
+		body {
+		  text-align: center;
+		}
+  
+		h1, img, iframe {
+		  display: block;
+		  margin-left: auto;
+		  margin-right: auto;
+		  text-align: center;
+		}
+		
+		ol, ul {
+	    display: inline-block;
+	    text-align: left;
+	    list-style-position: inside;
+	  	}
+	</style>
+</head>
+<!--
+
+Simple House
+
+https://templatemo.com/tm-539-simple-house
+
+-->
+<body> 
+
+	<div class="container">
+	<!-- Top box -->
+		<!-- Logo & Site Name -->
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/simple-house-01.jpg">
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+							<img src="img/simple-house-logo.png" alt="Logo" class="tm-site-logo" /> 
+							<div class="tm-site-text-box">
+								<h1 class="tm-site-title">Rumah Rasa Nusantara</h1>
+							</div>
+						</div>
+						<nav class="col-md-6 col-12 tm-nav">
+							<ul class="tm-nav-ul">
+								<li class="tm-nav-li"><a href="index.html" class="tm-nav-link active">Home</a></li>
+								<li class="tm-nav-li"><a href="about.html" class="tm-nav-link">About</a></li>
+							</ul>
+						</nav>	
+					</div>
+				</div>
+			</div>
+		</div>
+		<main>
+			<head>
+				<title>Resep Tumis Brokoli</title>
+			</head>
+			<body>
+				<h1>Resep Tumis Brokoli</h1>
+				<img src="img/gallery/Tumis-brokoli.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+			
+				<h2>Bahan-Bahan:</h2>
+				<ul>
+					<li>1 ikat brokoli, ukuran sedang</li>
+					<li>1 1/2 sdm Saus tiram / oyster sauce</li>
+					<li>1 sdm garlic yg sudah di haluskan</li>
+					<li>1/2 sdt chicken powder / kaldu ayam instant</li>
+					<li>merica bubuk</li>
+					<li>garam</li>
+				</ul>
+			
+				<h2>Cara Membuat:</h2>
+				<ol>
+					<li>Potong brokoli.</li>
+					<li>Cuci brokoli menggunakan air bersih dan sedikit garam. Lalu tiriskan.</li>
+					<li>panaskan wajan dan masukan minyak goreng secukupnya atau sekitar 3 sdm.</li>
+					<li>tumis bawang putih sampai kecoklatan.</li>
+					<li>Masukkan brokoli dan aduk rata.</li>
+					<li>Masukan 1 1/2 sdm Saus tiram, air sekitar 50ml.</li>
+					<li>Tambahkan lada putih secukupnya, lalu tambahkan 1/2 sdt chicken powder, aduk rata.</li>
+					<li>Masak kurang lebih 2 menit.</li>
+					<li>Lalu tambahkan 2 sdt tepung maizena yang sudah dilarutkan dengan 2 sdm air.</li>
+					<li>Aduk rata.</li>
+					<li>Brokoli siap disajikan.</li>
+				</ol>
+				<h2>Link video:</h2>
+				<ul>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/zrjUQHwtKFI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</ul>
+			  <script src="js/jquery.min.js"></script>
+			  <script src="js/parallax.min.js"></script>
+			  <script>
+				  $(document).ready(function(){
+					  // Handle click on paging links
+					  $('.tm-paging-link').click(function(e){
+						  e.preventDefault();
+						  
+						  var page = $(this).text().toLowerCase();
+						  $('.tm-gallery-page').addClass('hidden');
+						  $('#tm-gallery-page-' + page).removeClass('hidden');
+						  $('.tm-paging-link').removeClass('active');
+						  $(this).addClass("active");
+					  });
+				  });
+			  </script>
+</body>
+</html>

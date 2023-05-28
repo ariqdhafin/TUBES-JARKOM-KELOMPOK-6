@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Simple House Template</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" />    
+	<link href="css/templatemo-style.css" rel="stylesheet" />
+
+	<style>
+		body {
+		  text-align: center;
+		}
+  
+		h1, img, iframe {
+		  display: block;
+		  margin-left: auto;
+		  margin-right: auto;
+		  text-align: center;
+		}
+		
+		ol, ul {
+	    display: inline-block;
+	    text-align: left;
+	    list-style-position: inside;
+	  	}
+	</style>
+</head>
+<!--
+
+Simple House
+
+https://templatemo.com/tm-539-simple-house
+
+-->
+<body> 
+
+	<div class="container">
+	<!-- Top box -->
+		<!-- Logo & Site Name -->
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/simple-house-01.jpg">
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+							<img src="img/simple-house-logo.png" alt="Logo" class="tm-site-logo" /> 
+							<div class="tm-site-text-box">
+								<h1 class="tm-site-title">Rumah Rasa Nusantara</h1>
+							</div>
+						</div>
+						<nav class="col-md-6 col-12 tm-nav">
+							<ul class="tm-nav-ul">
+								<li class="tm-nav-li"><a href="index.html" class="tm-nav-link active">Home</a></li>
+								<li class="tm-nav-li"><a href="about.html" class="tm-nav-link">About</a></li>
+							</ul>
+						</nav>	
+					</div>
+				</div>
+			</div>
+		</div>
+		<main>
+			<head>
+        <title>Resep Ayam Goreng Krispi</title>
+      </head>
+      <body>
+        <h1>Resep Ayam Goreng Krispi</h1>
+        <img src="img/gallery/ayam_goreng_krispi.jpg" alt="Image" width="400" height="250" class="img-fluid tm-gallery-img" />
+      
+        <h2>Bahan 1:</h2>
+        <ul>
+          <li>1 ekor (700 g) Ayam, dipotong 12 bagian</li>
+          <li>1 saset Desaku Marinasi</li>
+          <li>1 sdt Ladaku Merica bubuk</li>
+        </ul>
+      
+        <h2>Bahan 2:</h2>
+        <ul>
+          <li>800 ml Minyak Goreng</li>
+        </ul>
+      
+        <h2>Bahan 3:</h2>
+        <ul>
+          <li>125 g Tepung Terigu (protein sedang)</li>
+          <li>25 g Tepung Tapioka</li>
+          <li>1 sdt garam</li>
+          <li>1 saset Ladaku Merica Bubuk</li>
+        </ul>
+      
+        <h2>Bahan 4:</h2>
+        <ul>
+          <li>8 sdm Air</li>
+          <li>6 sdm Tepung Campuran Bahan 3</li>
+        </ul>
+      
+        <h2>Cara membuat:</h2>
+        <ol>
+          <li>Campurkan ayam dengan Desaku Marinasi dan Ladaku Merica Bubuk, aduk hingga rata.</li>
+          <li>Campur rata tepung terigu, tepung tapioka, garam, dan 1 saset Ladaku Merica Bubuk, aduk rata.</li>
+          <li>Ambil 6 sdm adonan campuran bahan 3, tuang ke dalam wadah kemudian tambahkan 8 sdm air, aduk rata.</li>
+          <li>Lumuri ayam dengan larutan tepung, kemudian lumuri dengan adonan tepung kering hingga rata, remas-remas dengan 10 jari kemudian getarkan perlahan (agar tepung yang melekat tidak jatuh), lakukan hingga semua selesai (jangan sampai ditumpuk).</li>
+          <li>Panaskan minyak goreng (150°C) hingga di atas panci terdapat bayangan yang bergoyang, goreng ayam hingga berwarna kuning keemasan selama 15 menit dengan api sedang. Angkat dan tiriskan.</li>
+          <li>Sajikan selagi hangat.</li>
+        </ol>
+        <h2>Link video:</h2>
+        <ul>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/t3oGeK9mdLQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </ul>
+			  <script src="js/jquery.min.js"></script>
+			  <script src="js/parallax.min.js"></script>
+			  <script>
+				  $(document).ready(function(){
+					  // Handle click on paging links
+					  $('.tm-paging-link').click(function(e){
+						  e.preventDefault();
+						  
+						  var page = $(this).text().toLowerCase();
+						  $('.tm-gallery-page').addClass('hidden');
+						  $('#tm-gallery-page-' + page).removeClass('hidden');
+						  $('.tm-paging-link').removeClass('active');
+						  $(this).addClass("active");
+					  });
+				  });
+			  </script>
+</body>
+</html>

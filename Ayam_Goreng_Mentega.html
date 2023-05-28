@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Simple House Template</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" />    
+	<link href="css/templatemo-style.css" rel="stylesheet" />
+
+	<style>
+		body {
+		  text-align: center;
+		}
+  
+		h1, img, iframe {
+		  display: block;
+		  margin-left: auto;
+		  margin-right: auto;
+		  text-align: center;
+		}
+		
+		ol, ul {
+	    display: inline-block;
+	    text-align: left;
+	    list-style-position: inside;
+	  	}
+	</style>
+</head>
+<!--
+
+Simple House
+
+https://templatemo.com/tm-539-simple-house
+
+-->
+<body> 
+
+	<div class="container">
+	<!-- Top box -->
+		<!-- Logo & Site Name -->
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/simple-house-01.jpg">
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+							<img src="img/simple-house-logo.png" alt="Logo" class="tm-site-logo" /> 
+							<div class="tm-site-text-box">
+								<h1 class="tm-site-title">Rumah Rasa Nusantara</h1>
+							</div>
+						</div>
+						<nav class="col-md-6 col-12 tm-nav">
+							<ul class="tm-nav-ul">
+								<li class="tm-nav-li"><a href="index.html" class="tm-nav-link active">Home</a></li>
+								<li class="tm-nav-li"><a href="about.html" class="tm-nav-link">About</a></li>
+							</ul>
+						</nav>	
+					</div>
+				</div>
+			</div>
+		</div>
+		<main>
+			<head>
+				<title>Resep Ayam Goreng Mentega</title>
+			</head>
+			<body>
+				<h1>Resep Ayam Goreng Mentega</h1>
+				<img src="img/gallery/Ayam-goreng-mentega.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+			
+				<h2>Bahan-Bahan:</h2>
+				<ul>
+					<li>500 gram ayam bagian paha tnp tulang</li>
+					<li>2 sdm margarin blueband</li>
+					<li>3 siung bawang putih</li>
+					<li>1/2 bawang bombay ( kalo suka boleh banyakan )</li>
+					<li>4 sdm kecap inggris</li>
+					<li>2 sdm kecap manis</li>
+					<li>1 sdm chili sauce / cabe botolan</li>
+					<li>2 sdm oyster sauce / saus tiram ( 1 sdm utk marinasi, 1 sdm utk saus )</li>
+					<li>lada secukup nya utk ayam</li>
+				</ul>
+			
+				<h2>Pelengkap</h2>
+				<ul>
+					<li>nasi</li>
+					<li>telur ceplok</li>
+					<li>selada air</li>
+				</ul>
+			
+				<h2>Cara Membuat:</h2>
+				<ol>
+					<li>Potong selada air, bawang putih, bawang bombay, dan ayam (ukuran potong sesuai selera).</li>
+					<li>Bumbui ayam dengan 1 sdm oyster sauce dan merica, lalu di remas-remas, kemudian dimasukan ke dalam kulkas.</li>
+					<li>Lelehkan margarin di penggorengan.</li>
+					<li>Jika sudah meleleh, masukan ayam. Goreng ayam sampai kecoklatan di seluruh permukaan ayam</li>
+					<li>masak telur ceplok di tempat terpisah.</li>
+					<li>Jika ayam sudah berwarna kecoklatan masukan bawang putih dan juga bawang bombay.</li>
+					<li>Jika bawang bombay nya sudah mulai layu, tuang 4 sdm kecap inggris, 2 sdm kecap manis, 1 sdm chili sauce,dan 1 sdm oyster sauce.</li>
+					<li>jika semua saus sudah terserap tandanya sudah matang dan siap disajikan.</li>
+				</ol>
+				<h2>Link video:</h2>
+				<ul>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/QwG1Jj23Zts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</ul>
+			  <script src="js/jquery.min.js"></script>
+			  <script src="js/parallax.min.js"></script>
+			  <script>
+				  $(document).ready(function(){
+					  // Handle click on paging links
+					  $('.tm-paging-link').click(function(e){
+						  e.preventDefault();
+						  
+						  var page = $(this).text().toLowerCase();
+						  $('.tm-gallery-page').addClass('hidden');
+						  $('#tm-gallery-page-' + page).removeClass('hidden');
+						  $('.tm-paging-link').removeClass('active');
+						  $(this).addClass("active");
+					  });
+				  });
+			  </script>
+</body>
+</html>

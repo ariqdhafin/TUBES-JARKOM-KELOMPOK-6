@@ -1,0 +1,8 @@
+Cara Menggunakan Web Server
+
+1.Buka Command Prompt
+2.Ketik 'py server.py'
+3.Buka Command Prompt
+4.Ketik 'py client.py'
+5.Masukkan nama file yang ingin diambil
+6.Tunggu file ditampilkan

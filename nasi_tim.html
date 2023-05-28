@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Simple House Template</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" />    
+	<link href="css/templatemo-style.css" rel="stylesheet" />
+
+	<style>
+		body {
+		  text-align: center;
+		}
+  
+		h1, img, iframe {
+		  display: block;
+		  margin-left: auto;
+		  margin-right: auto;
+		  text-align: center;
+		}
+		
+		ol, ul {
+	    display: inline-block;
+	    text-align: left;
+	    list-style-position: inside;
+	  	}
+	</style>
+</head>
+<!--
+
+Simple House
+
+https://templatemo.com/tm-539-simple-house
+
+-->
+<body> 
+
+	<div class="container">
+	<!-- Top box -->
+		<!-- Logo & Site Name -->
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/simple-house-01.jpg">
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+							<img src="img/simple-house-logo.png" alt="Logo" class="tm-site-logo" /> 
+							<div class="tm-site-text-box">
+								<h1 class="tm-site-title">Rumah Rasa Nusantara</h1>
+							</div>
+						</div>
+						<nav class="col-md-6 col-12 tm-nav">
+							<ul class="tm-nav-ul">
+								<li class="tm-nav-li"><a href="index.html" class="tm-nav-link active">Home</a></li>
+								<li class="tm-nav-li"><a href="about.html" class="tm-nav-link">About</a></li>
+							</ul>
+						</nav>	
+					</div>
+				</div>
+			</div>
+		</div>
+		<main>
+			<head>
+        <title>Resep Nasi Tim</title>
+      </head>
+      <body>
+        <h1>Resep Nasi Tim</h1>
+        <img src="img/gallery/nasi_tim.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+        
+        <h2>Bahan 1:</h2>
+        <ul>
+          <li>¼ ekor Ayam, bagian paha</li>
+          <li>1.250 ml Air</li>
+          <li>1 sdt Ladaku Merica Bubuk</li>
+          <li>1 sdt Garam</li>
+          <li>1 batang Daun Bawang, dipotong-potong</li>
+        </ul>
+        
+        <h2>Bahan 2:</h2>
+        <ul>
+          <li>3 sdm Minyak Goreng</li>
+          <li>3 siung Bawang Putih, cincang</li>
+          <li>2 cm Jahe, dimemarkan</li>
+          <li>2 batang Daun Bawang, dirajang</li>
+        </ul>
+        
+        <h2>Bahan 3:</h2>
+        <ul>
+          <li>2 sdm Kecap Manis</li>
+          <li>1 sdm Kecap Asin</li>
+          <li>1 sdm Kecap Inggris</li>
+          <li>1 sdm Saus Tiram</li>
+        </ul>
+        
+        <h2>Bahan 4:</h2>
+        <ul>
+          <li>1 sdt Gula Pasir</li>
+          <li>¼ sdt Ladaku Merica Bubuk</li>
+          <li>350 g Nasi Putih</li>
+          <li>1 sdm Minyak Wijen</li>
+          <li>2 sdm Bawang Goreng</li>
+          <li>25 g Daun Ketumbar</li>
+        </ul>
+        
+        <h2>Cara membuat:</h2>
+        <ol>
+          <li>Rebus bahan 1 hingga mendidih kemudian kecilkan api, rebus kembali selama 45 menit dengan panci tertutup</li>
+          <li>Kemudian angkat ayam dan potong dadu, sisihkan potongan ayam ini</li>
+          <li>Sisihkan juga kaldu dari rebusan ayam</li>
+          <li>Tumis bawang putih, jahe dan daun bawang, sampai bawang putih mulai kekuningan</li>
+          <li>Campur semua bahan 3 ke dalam wadah, aduk lalu masukkan ke dalam tumisan, masak hingga mulai harum dan kuah pekat</li>
+          <li>Tambahkan Ladaku Merica Bubuk dan gula pasir, aduk hingga gula larut</li>
+          <li>Masukkan ayam rebus yang sudah dipotong dadu</li>
+          <li>Matikan api, masukkan minyak wijen, aduk kembali hingga rata</li>
+          <li>Letakkan tumisan ayam secukupnya pada dasar mangkok tahan panas</li>
+          <li>Beri nasi hampir 60% memenuhi mangkok</li>
+          <li>Tuangi dengan kaldu ayam hingga nasi terendam, lakukan kembali hingga bahan habis</li>
+          <li>Kukus selama 35 menit hingga nasi menjadi nasi tim</li>
+          <li>Angkat kemudian balik mangkok nasi tim di atas piring</li>
+          <li>Sajikan selagi masih panas dengan taburan bawang goreng dan daun ketumbar</li>
+        </ol>
+        <h2>Link video:</h2>
+        <ul>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dS-LhHVWEqI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </ul>
+			  <script src="js/jquery.min.js"></script>
+			  <script src="js/parallax.min.js"></script>
+			  <script>
+				  $(document).ready(function(){
+					  // Handle click on paging links
+					  $('.tm-paging-link').click(function(e){
+						  e.preventDefault();
+						  
+						  var page = $(this).text().toLowerCase();
+						  $('.tm-gallery-page').addClass('hidden');
+						  $('#tm-gallery-page-' + page).removeClass('hidden');
+						  $('.tm-paging-link').removeClass('active');
+						  $(this).addClass("active");
+					  });
+				  });
+			  </script>
+</body>
+</html>
